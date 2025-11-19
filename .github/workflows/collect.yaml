@@ -1,6 +1,6 @@
 name: Collect
 on:
-  # Performed once a day at 12:00 AM
+  # Performed every two hours
   schedule:
     - cron: "0 */2 * * *"
   workflow_dispatch:
